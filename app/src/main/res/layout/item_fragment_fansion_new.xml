@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <!--<com.ly.luoyan.fasiondemo.view.RoundImageView-->
+        <!--android:id="@+id/item_fragment_iv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:type="round"-->
+        <!--android:scaleType="fitXY"-->
+        <!--app:borderRadius="2dp"-->
+        <!--/>-->
+
+    <ImageView
+        android:id="@+id/item_fragment_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ly.luoyan.fasiondemo.view.CustomLableView
+        android:id="@+id/item_fragment_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_zan"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@mipmap/jk_zan"
+            android:shadowRadius="1"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:shadowColor="@color/gray3"
+            />
+        <TextView
+            android:id="@+id/tv_jk_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:shadowRadius="1"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowColor="@color/gray3"
+            android:text="0"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

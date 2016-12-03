@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="NicePopWindowAddTagBg">#aa000000</color>
+    <color name="NicePopWindowBg">#4f000000</color>
+    <color name="gray8">#888888</color>
+    <color name="gray9">#999999</color>
+    <color name="gray3">#333333</color>
+    <color name="text_gray7">#7e7e7e</color>
+    <color name="graye">#ebebeb</color>
+    <color name="edit_bg_gray">#f5f5f5</color>
+    <color name="pla_bg">#f0f0f0</color>
+    <color name="black8">#000000</color>
+    <color name="text_gray6">#A8A7AC</color>
+    <color name="text_gray5">#F5F4F2</color>
+    <color name="gray6">#666666</color>
+    <color name="line">#dbdbdb</color>
+</resources>
